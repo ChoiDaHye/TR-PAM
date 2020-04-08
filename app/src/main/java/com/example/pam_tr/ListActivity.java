@@ -33,9 +33,6 @@ public class ListActivity extends AppCompatActivity {
         boolean includeEdge = true;
         recyclerView.addItemDecoration(new GridSpacingItemDecoration(spanCount, spacing, includeEdge));
 
-//        RecyclerView.LayoutManager column = new GridLayoutManager(this, 2);
-//        recyclerView.setLayoutManager(column);
-
         listAdapter = new ListAdapter(this, getMyList());
         recyclerView.setAdapter(listAdapter);
 
