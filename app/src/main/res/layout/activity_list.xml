@@ -7,7 +7,6 @@
     android:background="@drawable/photo_of_man_sitting_on_motorcycle_near_tower_1122410"
     tools:context=".ListActivity">
 
-
     <ImageButton
         android:layout_width="35dp"
         android:layout_height="35dp"
@@ -16,6 +15,7 @@
         android:layout_marginTop="37dp"
         android:background="@drawable/button_circle"
         android:src="@drawable/icons_1"
+        android:onClick="gotoHome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
