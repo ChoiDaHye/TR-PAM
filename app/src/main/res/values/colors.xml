@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#F1F2F7</color>
+    <color name="colorPrimaryDark">#CFCFC8</color>
     <color name="colorAccent">#FF4081</color>
     <color name="daynight_textColor">#6cbabb</color>
-    <color name="switchColor">#911DEE</color>
+    <color name="switchColor">#CFCFC8</color>
     <color name="color1">#FE7764</color>
     <color name="color2">#FFFFFF</color>
     <color name="color3">#ECF0F1</color>
     <color name="color4">#888A88</color>
     <color name="color5">#000000</color>
+
+    <color name="color6">#CDCFCC</color>
+    <color name="color7">#FFFFFF</color>
+    <color name="color8">#888A88</color>
 </resources>
