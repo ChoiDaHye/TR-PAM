@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_main);
+
+        Intent intent = getIntent();
         mySwitch = findViewById(R.id.MySwitch);
         if(AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
             mySwitch.setChecked(true);}
@@ -34,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     initApplication.getInstance().setNightModeEnabled(false);
                 }
-                Intent intent = getIntent();
-                intent.addFlags(intent.FLAG_ACTIVITY_NO_ANIMATION);
+
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
                 finish();
-                startActivity(intent);
             }
         });
     }
